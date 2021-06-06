@@ -22,7 +22,7 @@ public class CommentController extends HttpServlet{
 
 	private static final long serialVersionUID = 1L;
 	
-	// 전송방식에 상관없이 요청을 받앋서 분기하는 메소드
+	// 전송방식에 상관없이 요청을 받아서 분기하는 메소드
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 	
