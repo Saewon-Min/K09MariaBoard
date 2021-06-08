@@ -21,6 +21,8 @@ public class ListController extends HttpServlet{
 		//DAO객체 생성(커넥션 풀 사용함)
 		MVCBoardDAO dao = new MVCBoardDAO();
 
+
+		
 		// 검색 파라미터 및 View로 전달할 여러가지 데이터 저장용 Map컬렉션 생성
 		Map<String, Object> map = new HashMap<String, Object>();
 
